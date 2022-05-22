@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .heading {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-image: url('images/bg-desktop.svg');
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a:hover {
+      color: hsl(300, 69%, 71%) !important;
+      border-color: hsl(300, 69%, 71%) !important;
+      background: none !important;
+    }
+
+    .round {
+      width: 15px;
+      height: 15px;
+      border: 1px solid;
+      border-radius: 50%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body class="bg-primary">
+
+  <div class="container d-flex align-items-center" style="height: 100vh;">
+    <div class="row d-flex">
+
+      <div class="col-12 mt-5 mb-4">
+        <img src="images/logo.svg" class="" style="width: 180px;" alt="">
+      </div>
+
+      <div class="col-md-8">
+        <img src="images/illustration-mockups.svg" class='img-fluid' style="width: 90%;" alt="">
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-light fw-bolder heading mt-5" style="line-height: 1.6;">
+          Build The Community <br> Your Fans Will Love
+        </h2>
+        <p class="para text-white-50 mt-4 mb-4" style="font-size: 11px;">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button class="btn btn-lg rounded-pill btn-light text-secondary fw-normal">Register</button>
+      </div>
+
+      <div class="col-12 d-flex justify-content-end mb-3">
+        <a class=" me-3 round text-white">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a class="me-3 round text-white">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a class=" me-3 round text-white">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="col-12">
+
+        <footer>
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Kyaw Zin Latt</a>.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

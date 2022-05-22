@@ -1,0 +1,24 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyaw-Zin-Latt/Huddle-landing-page-with-a-single-introductory-section.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyaw-Zin-Latt/Huddle-landing-page-with-a-single-introductory-section/issues"
+  },
+  "homepage": "https://github.com/Kyaw-Zin-Latt/Huddle-landing-page-with-a-single-introductory-section#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^5.1.3"
+  }
+}
